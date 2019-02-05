@@ -1,0 +1,29 @@
+
+
+.events-control {
+    text-align: center;
+    border: 1px solid #5101d1;
+    padding: 1rem;
+    margin: 4rem auto;
+    width: 30rem;
+    max-width: 80%;
+}
+
+.events-control button
+.btn {
+    background-color: lightblue;
+    font: inherit;
+    border: 1px solid #01d1d1;
+    border-radius: 3px;
+    padding: 0.25rem 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+    color: white;
+    cursor: pointer;
+}
+.events-control button:hover,
+.events-control button:active,
+.btn:hover, .btn:active {
+    background: #01a7a7;
+    border-color: #01a7a7;
+}
