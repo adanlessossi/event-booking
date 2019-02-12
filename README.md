@@ -44,7 +44,6 @@ npm start
 ```
 
 ### Playing around
-
 - Register yourself with your email and password (button "Switch to Signup")
 - Login with your credentials
 - Create some Test Events
