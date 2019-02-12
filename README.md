@@ -23,6 +23,7 @@ $ git clone git@github.com/adanlessossi/event-booking.git
 ```
 
 ### Running Backend
+
 Open a new terminal window
 
 ```
@@ -33,6 +34,7 @@ npm start
 You will then be connected to the Atlas MongoDB
 
 ### Running the Frontend
+
 Move to the **frontend** folder
 
 Open a new terminal window and repeat the installation
@@ -44,6 +46,7 @@ npm start
 ```
 
 ### Playing around
+
 - Register yourself with your email and password (button "Switch to Signup")
 - Login with your credentials
 - Create some Test Events
