@@ -164,7 +164,14 @@ class EventsPage extends Component {
     render () {
         return <React.Fragment>
             {this.state.creating && <Backdrop />}
-            {this.state.creating && <Modal title="Add Event" canCancel canConfirm onCancel={this.modalCancelHandler} onConfirm={this.modalConfirmHandler}>
+            { this.state.creating &&
+                <Modal title="Add Event"
+                    canCancel
+                    canConfirm
+                    onCancel={ this.modalCancelHandler }
+                    onConfirm={ this.modalConfirmHandler }
+                    confirmText='Confirm'
+                 >
                 <form>
                   <div className="form-control">
                         <label htmlFor="title">Title</label>
@@ -192,6 +199,7 @@ class EventsPage extends Component {
                     canConfirm
                     onCancel={ this.modalCancelHandler }
                     onConfirm={ this.eventBookHandler }
+                    confirmText='Book'
                 >
                     <h1>{ this.state.selectedEvent.title }</h1>
                     <h2>{ this.state.selectedEvent.price } - { new Date(this.state.selectedEvent.date).toISOString() }</h2>
